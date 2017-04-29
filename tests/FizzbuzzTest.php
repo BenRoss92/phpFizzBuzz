@@ -8,7 +8,12 @@
   {
       public function testMultipleOfThreeReturnsFizz()
       {
-        $this->assertEquals(fizzBuzz(3), 'fizz');
+        $this->assertEquals('Fizz', fizzBuzz(3));
+      }
+
+      public function testMultipleOfFiveReturnsBuzz()
+      {
+        $this->assertEquals('Buzz', fizzBuzz(5));
       }
   }
 
