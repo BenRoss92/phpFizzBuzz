@@ -15,6 +15,11 @@
       {
         $this->assertEquals('Buzz', fizzBuzz(5));
       }
+
+      public function testMultipleOfThreeAndFiveReturnsFizzBuzz()
+      {
+        $this->assertEquals('FizzBuzz', fizzBuzz(15));
+      }
   }
 
 ?>
