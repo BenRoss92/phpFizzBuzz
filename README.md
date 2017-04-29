@@ -16,3 +16,4 @@
 3. Clone this repo and change into the directory:  
 `$ git clone git@github.com:BenRoss92/phpFizzBuzz.git && cd phpFizzBuzz`
 4. Run the tests - `$ phpunit --testdox tests/FizzBuzzTest.php`
+5. Run the program to print numbers 1 to 100 using FizzBuzz rules - `$ php src/FizzBuzz.php` 
