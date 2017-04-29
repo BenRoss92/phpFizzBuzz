@@ -8,6 +8,8 @@ function fizzBuzz($number) {
     return "Fizz";
   } elseif ($number % 5 === 0) {
     return "Buzz";
+  } else {
+    return $number;
   }
 }
 

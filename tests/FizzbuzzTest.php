@@ -20,6 +20,11 @@
       {
         $this->assertEquals('FizzBuzz', fizzBuzz(15));
       }
+
+      public function testNonMultipleReturnsNumber()
+      {
+        $this->assertEquals(1, fizzBuzz(1));
+      }
   }
 
 ?>
