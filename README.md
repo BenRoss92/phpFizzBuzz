@@ -16,4 +16,9 @@
 3. Clone this repo and change into the directory:  
 `$ git clone git@github.com:BenRoss92/phpFizzBuzz.git && cd phpFizzBuzz`
 4. Run the tests - `$ phpunit --testdox tests/FizzBuzzTest.php`
-5. Run the program to print numbers 1 to 100 using FizzBuzz rules - `$ php src/FizzBuzz.php` 
+5. Run the program to print numbers 1 to 100 using FizzBuzz rules - `$ php src/FizzBuzz.php`
+
+## To Do
+
+- Add functions to a FizzBuzz object (and change tests accordingly)
+- Refactor conditions of 'if' statements (e.g. `if ($number % 3 === 0)` into private reusable function (e.g. `function isDivisibleBy($divisor, $number) {}`)
