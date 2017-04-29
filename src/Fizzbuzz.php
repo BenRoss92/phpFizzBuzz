@@ -13,4 +13,8 @@ function fizzBuzz($number) {
   }
 }
 
+for ($x = 1; $x <= 100; $x++) {
+  echo "". fizzBuzz($x) ."\n";
+}
+
 ?>
