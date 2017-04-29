@@ -1,12 +1,12 @@
 <?php
 
-function fizzBuzz($n) {
+function fizzBuzz($number) {
 
-  if (($n % 3 === 0) && ($n % 5 === 0)) {
+  if (($number % 3 === 0) && ($number % 5 === 0)) {
     return "FizzBuzz";
-  } elseif ($n % 3 === 0) {
+  } elseif ($number % 3 === 0) {
     return "Fizz";
-  } elseif ($n % 5 === 0) {
+  } elseif ($number % 5 === 0) {
     return "Buzz";
   }
 }
